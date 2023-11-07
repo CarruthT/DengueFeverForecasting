@@ -6,7 +6,9 @@ Link to data: https://www3.paho.org/data/index.php/en/mnu-topics/indicadores-den
 Minor cleaning and wrangling for the purposes of epidemiological comparison including adding new columns for the change in values and dropping some not needed or redundant values. 
 
 Forecasting done using time series SARIMAX(Seasonal Auto-Regressive Integrated Moving Average with eXogenous factors). This model was appropriate in taking into account the seasonal, non-stationary, exogeneous nature of infectious disease. 
-#Data Visualizations
+
+
+# Data Visualizations
 Our model predicts, with increasingly large confidence intervals, that Dengue Fever cases will decrease until eventually having a minor spike comparable with past seasons. Uniquely this model predicts a historically low Dengue Fever season with predictions hitting 0 new cases for some weeks. 
 ![image](https://github.com/CarruthT/DengueFeverForecasting/assets/97051391/8458f7a6-72e4-45aa-a0f4-a2ae5dddb548)
 

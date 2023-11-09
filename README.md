@@ -5,7 +5,7 @@ Link to data: https://www3.paho.org/data/index.php/en/mnu-topics/indicadores-den
 
 Minor cleaning and wrangling for the purposes of epidemiological comparison including adding new columns for the change in values and dropping some not needed or redundant values. 
 
-Forecasting done using time series SARIMAX (Seasonal Auto-Regressive Integrated Moving Average with eXogenous factors). This model was appropriate in taking into account the seasonal, non-stationary, exogeneous nature of infectious disease. 
+Forecasting done using time series SARIMAX (Seasonal Auto-Regressive Integrated Moving Average with eXogenous factors). This model was appropriate in taking into account the seasonal, non-stationary, exogeneous nature of infectious disease. Currently, this is only a SARIMA model as external factors like weather, public health interventions, and population density have not been included. I will add some more factors with time.
 
 
 # Data Visualizations
